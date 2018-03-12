@@ -16,7 +16,8 @@
         padding: 10px 15px;
         border-radius: 25px;
         margin-right:10px;
-        &:hover {
+        &:hover,
+        &:focus {
             background:white;
             color:$darkTeal;
         }
@@ -36,7 +37,8 @@ nav {
     li {
         display:inline-block;
         padding:20px;
-        &:hover {
+        &:hover,
+        &:focus {
             background:$darkTeal;
         }
     }
