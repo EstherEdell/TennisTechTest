@@ -1,0 +1,17 @@
+@media (max-width: 800px) {
+    
+    .toggle, .slider {
+        width:25%;
+        text-align: center;
+    }
+}
+@media (max-width:720px) {
+    body .wrapper {
+        max-width:400px;
+        width:100%;
+        margin:0 auto;
+    }
+    .showInfo {
+        padding-bottom:20px;
+    }
+}
